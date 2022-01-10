@@ -3,15 +3,26 @@
   padding: 0;
   margin: 0;
   scroll-behavior: smooth;
+  font-family: var(--font-family); /* Delete this later */
 }
 
 body {
   background: var(--color-bg);
+  color: #fff; /* Delete this later */
+  padding: 3rem; /* Delete */
 }
 
 a {
   color: unset;
   text-decoration: none;
+  /* Delete */
+  background-color: #79eddc;
+  padding: 0.5rem 1rem;
+  border-radius: 1.5rem;
+  line-height: 300%;
+  color: black;
+  font-weight: bold;
+  /* End delete */
 }
 
 .gradient__bg {
