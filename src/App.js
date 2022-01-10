@@ -17,11 +17,16 @@ import './index.css';
 const App = () => {
   return (
     <div className="App">
+
+      {/* Portfolio Site */}
+
+      {/* Portfolio Site End */}
+
       {/*<div className="gradient__bg">
         <Navbar />
         <Header />
       </div>
-  <Brand />*/}
+  <Brand />
     <Router>
       <Routes>
         <Route path="/" element={<Home />} />
@@ -35,7 +40,7 @@ const App = () => {
         <Route path="/dashboard" element={<Dashboard />} />
       </Routes>
     </Router>
-      {/*<WhatGPT3 />
+      <WhatGPT3 />
       <Features />
       <Possibility />
       <Cta />
