@@ -1,0 +1,14 @@
+.back-to-top {
+  height: 50px;
+  width: 50px;
+  background: aquamarine;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  text-decoration: none;
+  color: black;
+}

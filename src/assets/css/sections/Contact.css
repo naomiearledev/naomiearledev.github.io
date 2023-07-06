@@ -1,0 +1,7 @@
+.contact {
+  height: 500px;
+  background: #888888;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

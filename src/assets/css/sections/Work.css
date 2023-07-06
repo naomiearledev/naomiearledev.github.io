@@ -1,0 +1,7 @@
+.work {
+  height: 500px;
+  background: #aeaeae;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
