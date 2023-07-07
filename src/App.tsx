@@ -5,7 +5,7 @@ import Intro from './sections/Intro'
 import About from './sections/About'
 import Work from './sections/Work'
 import Contact from './sections/Contact'
-import BackToTop from './components/BackToTop'
+import NavLink from './components/NavLink'
 import Overlay from './components/Overlay'
 
 function App() {
@@ -16,7 +16,7 @@ function App() {
       <About />
       <Work />
       <Contact />
-      <BackToTop />
+      <NavLink text="top" selector="#header" className="back-to-top" />
       {/* <Overlay /> */}
     </>
   )
